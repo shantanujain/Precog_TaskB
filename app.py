@@ -24,7 +24,6 @@ def modi_kejriwal():
 		gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 		face_detector = cv2.CascadeClassifier(HAARCASCADE_PATH)
 		rects = face_detector.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
-		print FACE_RECOGNITION_MODEL_PATH
 
 		face_recognizer = cv2.createLBPHFaceRecognizer()
 		face_recognizer.load(FACE_RECOGNITION_MODEL_PATH)
