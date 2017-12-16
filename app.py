@@ -7,8 +7,8 @@ from flask import Flask, render_template, request, redirect, url_for, send_from_
 
 app = Flask(__name__)
  
-HAARCASCADE_PATH = "{base_path}/haarcascade_frontalface_default.xml".format(base_path=os.path.abspath(os.path.dirname(__file__)))
-FACE_RECOGNITION_MODEL_PATH = "{base_path}/model_1.yaml".format(base_path=os.path.abspath(os.path.dirname(__file__)))
+HAARCASCADE_PATH = "{base_path}/cascades/haarcascade_frontalface_default.xml".format(base_path=os.path.abspath(os.path.dirname(__file__)))
+FACE_RECOGNITION_MODEL_PATH = "{base_path}/models/model_1.yaml".format(base_path=os.path.abspath(os.path.dirname(__file__)))
  
 @app.route('/')
 def index():
