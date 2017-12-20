@@ -24,6 +24,10 @@ python detect.py *path-to-image*
 
 "Samples" contains some test cases with output
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shantanujain/Precog_TaskB/master/Samples/Sample1.png" width="50%" >
+</p>
+
 ## Observations
 
 * OpenCV's face detector is prone to false-positives (can be seen in one of the test cases)
