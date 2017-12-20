@@ -22,10 +22,24 @@ python detect.py *path-to-image*
 
 ## Test Cases
 
-"Samples" contains some test cases with output
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shantanujain/Precog_TaskB/master/samples/Sample1.jpg" width="50%" >
+</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/shantanujain/Precog_TaskB/master/Samples/Sample1.png" width="50%" >
+  <img src="https://raw.githubusercontent.com/shantanujain/Precog_TaskB/master/samples/Sample2.jpg" width="50%" >
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shantanujain/Precog_TaskB/master/samples/Sample3.jpg" width="50%" >
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shantanujain/Precog_TaskB/master/samples/Sample4.jpg" width="50%" >
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shantanujain/Precog_TaskB/master/samples/Sample5.jpg" width="50%" >
 </p>
 
 ## Observations
